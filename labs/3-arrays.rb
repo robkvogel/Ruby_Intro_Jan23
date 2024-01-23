@@ -15,3 +15,20 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+#Rob's code
+my_list = ["milk", "eggs", "bacon"]
+bens_list = ["beer", "cookies", "apples","bacon"]
+#puts Array_1
+
+collective_list = my_list + bens_list
+
+#combined list with unique
+unique_list = collective_list.uniq
+#puts unique_list
+
+#alpha order
+sorted_list = unique_list.sort
+
+#write each item to screen
+puts "Buy #{sorted_list}"
