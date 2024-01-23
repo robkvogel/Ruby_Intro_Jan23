@@ -17,6 +17,10 @@ suits = ["Clubs", "Diamonds", "Hearts", "Spades"]
 # 3 of Clubs
 # ...
 
+
+#hint - yoou need 2 loops to accomplish this task
+
+
 # CHALLENGE
 # Deal a poker hand. Shuffle the deck and "deal" (i.e. display) a 5 card hand (i.e. 5 cards from the deck).
 # You will want to look at the documentation for Arrays: https://ruby-doc.org/core-2.7.0/Array.html

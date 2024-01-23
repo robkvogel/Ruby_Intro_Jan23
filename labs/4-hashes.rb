@@ -36,4 +36,4 @@ rate =  bitcoin_data["bpi"]["USD"]["rate_float"]
 
 puts "conversion rate: 1 BTC = #{rate} dollars"
 dollarval = bitcoin * rate
-puts "Dollar Value is $ #{dollarval}"
+puts "If you have #{bitcoin} Bitcoin, then the Dollar Value is $ #{dollarval}"
