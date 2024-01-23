@@ -34,6 +34,7 @@ puts D2
 #write total to screen in user friendly way
 puts Total
 
+#More user friendly way
 puts "D1 =  #{D1}"
 puts "D2 =  #{D2}"
 puts "Total =  #{Total}"
