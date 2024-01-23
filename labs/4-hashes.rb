@@ -30,3 +30,10 @@ bitcoin = bitcoin.to_f
 
 # 3. inspect the bitcoin_data hash
 # puts bitcoin_data
+
+#dig through json file to get to the right data that is nested
+rate =  bitcoin_data["bpi"]["USD"]["rate_float"]
+
+puts "conversion rate: 1 BTC = #{rate} dollars"
+dollarval = bitcoin * rate
+puts "Dollar Value is $ #{dollarval}"
