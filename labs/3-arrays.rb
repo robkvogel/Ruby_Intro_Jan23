@@ -25,7 +25,7 @@ collective_list = my_list + bens_list
 
 #combined list with unique
 unique_list = collective_list.uniq
-#puts unique_list
+puts "The unique list is #{unique_list}"
 
 #alpha order
 sorted_list = unique_list.sort

@@ -20,6 +20,24 @@ suits = ["Clubs", "Diamonds", "Hearts", "Spades"]
 
 #hint - yoou need 2 loops to accomplish this task
 
+# loop through all ranks
+
+# for each rank, loop through all suits
+
+# print each time
+
+#code time
+index = 0
+
+for card in ranks
+    for symbol in suits
+    puts "The card is #{card} of #{symbol}"
+    index = index + 1
+    end
+end
+puts "I called out #{index} combinations!"
+  
+
 
 # CHALLENGE
 # Deal a poker hand. Shuffle the deck and "deal" (i.e. display) a 5 card hand (i.e. 5 cards from the deck).

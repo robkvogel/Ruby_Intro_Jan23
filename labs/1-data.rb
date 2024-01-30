@@ -38,3 +38,4 @@ puts Total
 puts "D1 =  #{D1}"
 puts "D2 =  #{D2}"
 puts "Total =  #{Total}"
+puts "Congrats you rollled a #{Total}! you're really good at this"
